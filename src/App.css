@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: #1a1a1a;
+}
+
+nav a {
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  background: #fff;
+  color: #213547;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
